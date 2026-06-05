@@ -1,45 +1,64 @@
 <div align="center">
 
-# 🎂 Birthday Celebration Website 🎉
+# 🎂 Happy Birthday Website 🎉
 
-### Making Birthdays More Special, One Click at a Time ✨
+### A Personalized Interactive Birthday Celebration Experience
 
-<img src="https://cdn-icons-png.flaticon.com/512/869/869869.png" width="120"/>
+✨ Designed to make special moments unforgettable ✨
 
-A fun and interactive birthday website created to celebrate a special day with beautiful animations, heartfelt wishes, and memorable moments.
+### 🌐 Live Demo
+👉 **Visit Here:** https://birthday-owiqd9gbd-ananya-ghosh05s-projects.vercel.app
 
 </div>
 
 ---
 
-## 🌟 Features
+## 📖 Overview
 
-- 🎈 Beautiful birthday-themed UI
-- 🎂 Interactive celebration experience
-- ✨ Smooth animations and transitions
-- 📱 Responsive design for desktop and mobile
-- 💝 Personalized birthday wishes
-- 🎵 Engaging and festive atmosphere
+A visually appealing and interactive birthday celebration website designed to create a memorable experience through animations, personalized wishes, and engaging UI elements. The project focuses on delivering a fun and festive digital birthday experience that can be shared with friends and family.
 
 ---
 
-## 🚀 Getting Started
+## ✨ Features
+
+- 🎂 Personalized birthday wishes
+- 🎈 Interactive animations
+- ✨ Modern and responsive UI
+- 💝 Special surprise elements
+- 📱 Mobile-friendly design
+- 🎉 Celebration-themed experience
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- TypeScript
+- HTML5
+- CSS3
+- JavaScript
+- Vercel
+
+---
+
+## 🚀 Live Website
+
+🌐 **Production URL:**  
+https://birthday-owiqd9gbd-ananya-ghosh05s-projects.vercel.app
+
+---
+
+## 🚀 Run Locally
 
 ### Prerequisites
 
-- Node.js (Latest LTS Version Recommended)
-- npm or yarn
+- Node.js
+- npm
 
 ### Installation
 
 ```bash
-git clone <your-repository-url>
-cd <project-folder>
+git clone https://github.com/Ananya-Ghosh05/<repo-name>.git
+cd <repo-name>
 npm install
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+npm run dev
