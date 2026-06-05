@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Courier+Prime&family=Quicksand:wght@500;700&display=swap');
+
+@theme {
+  --color-primary: #8a486f;
+  --color-primary-container: #f9a8d4;
+  --color-on-primary-container: #78395f;
+  --color-on-primary-fixed-variant: #6f3157;
+  --color-secondary: #6d5e00;
+  --color-secondary-container: #fcdf46;
+  --color-on-secondary-container: #726200;
+  --color-tertiary: #006686;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #75cbf4;
+  --color-on-tertiary-container: #005570;
+  --color-tertiary-fixed: #c0e8ff;
+  --color-on-tertiary-fixed: #001e2b;
+  --color-background: #fcfaed;
+  --color-on-background: #1b1c15;
+  --color-surface: #fcfaed;
+  --color-on-surface: #1b1c15;
+  --color-on-surface-variant: #514349;
+  --color-surface-container: #f0eee1;
+  --color-surface-container-low: #f6f4e7;
+  --color-outline-variant: #d5c1c9;
+  
+  --font-headline: "Bricolage Grotesque", sans-serif;
+  --font-body: "Quicksand", sans-serif;
+  --font-mono: "Courier Prime", monospace;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: var(--font-body);
+}
+
+.paper-texture {
+  background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+}
+
+.washi-tape {
+  background: rgba(249, 168, 212, 0.7);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.washi-tape-yellow {
+  background: rgba(252, 223, 70, 0.7);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.string-line {
+  background: radial-gradient(circle, #83737a 1.2px, transparent 1.2px);
+  background-size: 11px 1px;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 40px;
+  z-index: 0;
+}
+
+/* Custom Polaroid hover interaction */
+.polaroid-card {
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
+}
+
+.polaroid-card:hover {
+  transform: scale(1.06) rotate(0deg) !important;
+  z-index: 40 !important;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.15), 0 8px 10px -6px rgb(0 0 0 / 0.15);
+}
+
+.doodle-float {
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(4deg);
+  }
+}
+
+.floating-image {
+  transition: transform 0.4s ease;
+}
+
+.floating-image:hover {
+  transform: scale(1.05) rotate(1.5deg);
+}
+
+/* Dark Mode Overrides */
+.dark {
+  --color-background: #110e11;
+  --color-on-background: #fdf5fa;
+  --color-surface: #20171d;
+  --color-on-surface: #f9edf5;
+  --color-surface-container: #2b1d26;
+  --color-surface-container-low: #1c1118;
+  --color-on-surface-variant: #dfcbd7;
+  --color-secondary-container: #5d4e13;
+  --color-on-secondary-container: #ffe772;
+  --color-outline-variant: #56404c;
+}
+
+.dark .paper-texture {
+  background-image: url("https://www.transparenttextures.com/patterns/dark-matter.png");
+}
+
+.dark .string-line {
+  background: radial-gradient(circle, #dfcbd7 1.2px, transparent 1.2px);
+  background-size: 11px 1px;
+}
+
+/* Custom Stitch Project Gradients and Yellow Backgrounds */
+.stitch-gradient-transition {
+  background: linear-gradient(to bottom, #f9a8d4 0%, #faa09f 30%, #fbc27b 65%, #fcdf46 100%) !important;
+}
+
+.stitch-yellow-section {
+  background-color: #fcdf46 !important;
+}
+
+/* Ensure the sticky nav bar and lists match beautifully on the yellow section */
+.stitch-yellow-nav {
+  background-color: rgba(252, 223, 70, 0.92) !important; /* Semi-transparent warm yellow matching #fcdf46 */
+}
+
+/* Dark Mode Overrides */
+.dark .stitch-gradient-transition {
+  background: linear-gradient(to bottom, #110e11 0%, #171116 50%, #20171d 100%) !important;
+}
+
+.dark .stitch-yellow-section {
+  background-color: #20171d !important;
+}
+
+.dark .stitch-yellow-nav {
+  background-color: rgba(32, 23, 29, 0.9) !important;
+}
+

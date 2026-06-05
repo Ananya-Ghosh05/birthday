@@ -1,0 +1,6 @@
+{
+  "name": "Digital Scrapbook",
+  "description": "An elegant, interactive nostalgic digital scrapbook and memory book with custom animations, virtual hugs, and a beautiful dark mode toggle.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
