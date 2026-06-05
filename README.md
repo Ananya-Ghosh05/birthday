@@ -1,16 +1,41 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+
+# 🎂 Birthday Celebration Website 🎉
+
+### Making Birthdays More Special, One Click at a Time ✨
+
+<img src="https://cdn-icons-png.flaticon.com/512/869/869869.png" width="120"/>
+
+A fun and interactive birthday website created to celebrate a special day with beautiful animations, heartfelt wishes, and memorable moments.
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 🌟 Features
 
-View your app in AI Studio: https://ai.studio/apps/64281d70-e068-404d-b4f0-46441333e653
+- 🎈 Beautiful birthday-themed UI
+- 🎂 Interactive celebration experience
+- ✨ Smooth animations and transitions
+- 📱 Responsive design for desktop and mobile
+- 💝 Personalized birthday wishes
+- 🎵 Engaging and festive atmosphere
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (Latest LTS Version Recommended)
+- npm or yarn
+
+### Installation
+
+```bash
+git clone <your-repository-url>
+cd <project-folder>
+npm install
 
 
 1. Install dependencies:
